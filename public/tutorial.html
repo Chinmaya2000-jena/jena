@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Tutorial</title>
+    <style>
+        .container{
+            display: grid;
+            grid-template-columns: 3fr 9fr;
+        }
+        .topic{
+            background-color: lightgray;
+            padding: 20px;
+            margin-bottom: 50px;
+        }
+        .topic:target{
+            background-color: black;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <nav>
+            <ul>
+                <li><a href="#html">HTML</a></li>
+                <li><a href="#css">CSS</a></li>
+                <li><a href="#js">JAVA SCRIPT</a></li>
+            </ul>
+        </nav>
+        <main>
+            <div id="html" class="topic">
+                <h2>HTML</h2>
+                <p>it is a mark up language</p>
+            </div>
+            <div id="css" class="topic">
+                <h2>CSS</h2>
+                <p>it make style to html</p>
+            </div>
+            <div id="js" class="topic">
+                <h2>js</h2>
+                <p>it is a language for DOM manuplation</p>
+            </div>
+        </main>
+    </div>
+</body>
+</html>
